@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Amoria';
+    src: url('fonts/AMORIA.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aurora';
+    src: url('fonts/Aurora.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.resto-header {
+    background-image: linear-gradient(to right, rgb(242, 239, 255), rgb(156, 149, 235));
+    border-radius: 20px;
+}
+.container {
+    color: rgb(81, 71, 146);
+    border: 2px rgb(112, 92, 182) solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px rgba(39, 33, 52, 0.5);
+}
+h2 {
+    font-family: 'Aurora';
+    background-color: rgb(232, 222, 241);
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Amoria';
+}
+.nav-link {
+    font-size: 1.5rem; 
+    color: white;
+    font-family: 'Minecraft';
+}
+.logo {
+    font-size: 3rem;
+    font-family: 'Amoria', sans-serif;
+    margin-left: 100px;
+    color: rgb(81, 71, 146);
+}
+.navbar {
+    background-image: linear-gradient(to right, rgb(242, 239, 255), rgb(156, 149, 235));
+}
+.navbar-nav {
+    margin-right: 100px; 
+}
+.btn {
+    background-color: rgb(156, 149, 235);
+    color: white;
+    font-family: 'Aurora', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: rgb(112, 92, 182);
+    color: white;
+    cursor: pointer;
+}

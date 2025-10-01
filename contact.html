@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css"/>
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Contact Us!</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="logo navbar-brand" href="#">Rumiyeon's</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Homepage</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu_order.html">Order Now!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us :)</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div>
+    <div class="contact-header container mt-5 p-4">
+        <h1 class="resto-header p-3 text-center">Contact Us!</h1>
+        <h2 class="menu-header p-3 text-center mb-3">We'd love to hear from you!</h2>
+    </div>
+    <div class="sections-container">
+      <div class="section">
+        <img src="https://www.iconpacks.net/icons/2/free-location-icon-2955-thumb.png" alt="Map Location">
+        <h2>Our Location</h2>
+        <p id="location-info"></p>
+      </div>
+      <div class="section">
+        <img src="https://cdn1.iconfinder.com/data/icons/ui-5/502/call-512.png" alt="Phone Numbers">
+        <h2>Phone Numbers</h2>
+        <p id="contact-numbers"></p>
+      </div>
+      <div class="section">
+        <img class="image" src="https://cdn-icons-png.freepik.com/512/6932/6932624.png" alt="Phone Numbers">
+        <h2>Emails</h2>
+        <p id="email-addresses"></p>
+      </div>
+    </div>
+    </div>
+        <div class="footer text-center">
+            <p class="mt-5">⏱︎</p>
+            <p id="resto-hours"></p>
+        </div>
+    </div>
+</div>
+
+<script type="py" src="main-contact.py"></script>
+</body>
+</html>

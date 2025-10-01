@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Amoria';
+    src: url('fonts/AMORIA.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aurora';
+    src: url('fonts/Aurora.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/Minecraft.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav-link {
+    font-size: 1.5rem; 
+    color: white;
+    font-family: 'Minecraft';
+}
+.logo {
+    font-size: 3rem;
+    font-family: 'Amoria', sans-serif;
+    margin-left: 100px;
+    color: rgb(81, 71, 146);
+}
+.navbar {
+    background-image: linear-gradient(to right, rgb(242, 239, 255), rgb(156, 149, 235));
+}
+.navbar-nav {
+    margin-right: 100px; 
+}
+.contact-header {
+    color: rgb(81, 71, 146);
+    border: 2px rgb(112, 92, 182) solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px rgba(39, 33, 52, 0.5);
+}
+.section {
+    text-align: center;
+    margin-top: 20px;
+}
+.section img {
+    width: auto;
+    height: 50px;
+    justify-content: center;
+}
+.sections-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
+.section {
+    flex: 1 1 0;
+    max-width: 300px;
+}
+#contact-numbers, #email-addresses {
+    white-space: pre-line;
+}
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    color: rgb(81, 71, 146);
+}
